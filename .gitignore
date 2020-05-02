@@ -1,0 +1,27 @@
+nogit-*
+
+#######################
+# Frameworks and libs #
+#######################
+
+#########
+# Tools #
+#########
+
+# GNU Screen
+.screenrc
+
+# Sublime Text
+*.sublime*
+
+# Vim
+*.sw[op]
+Session.vim
+*~
+
+######
+# OS #
+######
+
+# MacOS
+.DS_Store
