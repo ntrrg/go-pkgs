@@ -38,7 +38,7 @@ type Options struct {
 func DefaultOptions() *Options {
 	return &Options{
 		Config: ".vanitic",
-		Source: os.TempDir(),
+		Source: filepath.Join(os.TempDir(), "vanitic"),
 		Clean:  false,
 		Output: "pkg",
 	}
